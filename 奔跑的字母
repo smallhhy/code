@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int i,j;
+	for(i=0;i<80;i++)
+	{
+	for(j=80-i;j<80;j++)
+	printf(" ");
+	printf("hhy");
+	system("cls");
+	}
+	for(i=0;i<80;i++)
+	{
+	for(j=i;j<80;j++)
+	printf(" ");
+	printf("hhy");
+	system("cls");
+	}
+	getchar();
+	return 0;
+}

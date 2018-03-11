@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+int i,k,*p0=&i,*p1=&k;
+void run(int *a)
+{
+    int j;
+	for(i=0;i<80;i++)
+	{
+	k=80-i;
+	for(j=*a;j<80;j++)
+	printf(" ");
+	printf("hhy");
+	system("cls");
+	}	
+}
 int main(void)
 {
-	int i,j;
-	for(i=0;i<80;i++)
-	{
-	for(j=80-i;j<80;j++)
-	printf(" ");
-	printf("hhy");
-	system("cls");
-	}
-	for(i=0;i<80;i++)
-	{
-	for(j=i;j<80;j++)
-	printf(" ");
-	printf("hhy");
-	system("cls");
-	}
+	run(p0);
+    run(p1);
 	getchar();
 	return 0;
 }

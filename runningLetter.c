@@ -7,7 +7,7 @@ void run(int *a)
   for(i=0;i<Lenth;i++)
   {
     k=Lenth-i;
-	  for(j=*a;j<Lenth;j++)
+    for(j=*a;j<Lenth;j++)
     {
       printf(" ");	
     }
